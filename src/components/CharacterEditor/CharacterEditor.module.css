@@ -1,6 +1,13 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+
+  /* Its, very important to set the background repeat to: no-repeat */
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, red, red),
+    linear-gradient(to right, blue, blue);
+  background-position: 0 0, bottom 40% left 0;
+  background-size: 100% 50%, 100% 100%;
 }
 
 .maxWidthWrapper {
